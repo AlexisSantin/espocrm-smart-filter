@@ -1,0 +1,14 @@
+{
+    "module": "SmartFilter",
+    "name": "Smart Filter",
+    "description": "Improves the list view filter bar: filter icon, quick field search, active filter counter, saved filter summaries and editing, auto-apply, and button layout.",
+    "author": "Alexis SANTIN",
+    "bundled": true,
+    "acceptableVersions": [
+        ">=10.0.3 <10.1.0"
+    ],
+    "php": [
+        ">=8.3"
+    ],
+    "scripts": []
+}

@@ -1,0 +1,11 @@
+{
+    "viewSetupHandlers": {
+        "record/search": [
+            "__APPEND__",
+            "smart-filter:handlers/record/search-filter-icon",
+            "smart-filter:handlers/record/search-filter-menu",
+            "smart-filter:handlers/record/search-filter-state",
+            "smart-filter:handlers/record/search-filter-toolbar"
+        ]
+    }
+}
