@@ -13,15 +13,17 @@
     line-height: 1;
 }
 
-.search-row .smart-filters-reset,
-.search-row .smart-filters-save {
+.smart-filters-reset,
+.smart-filters-save {
     white-space: nowrap;
-    height: 40px;
     margin-top: 0;
 }
 
-.search-row .input-group-btn > .btn.smart-filters-reset {
-    margin-left: 6px;
+/* Core input-group rules zero the radius on some sides and pull the buttons together; restore both so the buttons keep the theme shape and have a clear gap. */
+.input-group-btn > .btn.smart-filters-reset,
+.input-group-btn > .btn.smart-filters-save {
+    border-radius: var(--border-radius, 6px) !important;
+    margin-left: 8px !important;
 }
 
 .search-row .smart-filters-reset-label,

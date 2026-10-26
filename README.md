@@ -79,7 +79,7 @@ Screenshots were taken on EspoCRM 10.0.3 with the English language (en_US).
 
 ## Installation
 
-1. Build the package: `npm run extension` (produces `build/smart-filter-1.0.0.zip`).
+1. Build the package: `npm run extension` (produces `build/smart-filter-1.0.1.zip`).
 2. Install the ZIP from Administration → Extensions in EspoCRM.
 
 ## Development
