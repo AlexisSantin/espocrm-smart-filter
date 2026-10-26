@@ -2,6 +2,17 @@
 
 EspoCRM extension that improves the search and filter bar of list views.
 
+## Why Smart Filter
+
+The standard EspoCRM filter bar works, but it needs too many clicks and hides what is actually being filtered. Smart Filter keeps the same data and permissions, and changes the workflow:
+
+- **The menu stays open.** Several filters can be added in a row without reopening the list.
+- **Results update immediately.** Changing a filter applies it right away, so there is no "Apply" step.
+- **Active filters are visible.** A counter shows how many filters are in use, and saved filters show their name.
+- **Reset is only shown when useful.** It is hidden when no filter is set, and clearly visible otherwise.
+- **Fields are easy to find.** Quick search narrows the field list while you type (accent-insensitive), and frequently used fields move to the top.
+- **Saved filters stay readable.** Editing a saved filter shows a notice that it no longer matches the saved version, instead of silently pretending it still does.
+
 ## Features
 
 Screenshots were taken on EspoCRM 10.0.3 with the English language (en_US).
