@@ -1,6 +1,6 @@
 {
   "name": "espocrm-ext-smart-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Improvements for EspoCRM list view filters",
   "scripts": {
     "copy": "node build --copy",
