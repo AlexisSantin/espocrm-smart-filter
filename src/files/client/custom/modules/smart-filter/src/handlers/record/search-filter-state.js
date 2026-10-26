@@ -99,8 +99,8 @@ export default class SearchFilterStateSetupHandler {
 
                 view.clearView(`filter-${name}`);
 
-                view.element?.querySelector(`.advanced-filters > .filter[data-name="${name}"]`)?.remove();
-                view.element?.querySelector(`ul.filter-list li[data-name="${name}"]`)?.classList.remove('hidden');
+                view.element?.querySelector(`.advanced-filters > .filter[data-name="${CSS.escape(name)}"]`)?.remove();
+                view.element?.querySelector(`ul.filter-list li[data-name="${CSS.escape(name)}"]`)?.classList.remove('hidden');
 
                 delete view.advanced[name];
             }
@@ -197,7 +197,7 @@ export default class SearchFilterStateSetupHandler {
                 continue;
             }
 
-            if (view.element?.querySelector(`.advanced-filters > .filter[data-name="${name}"]`)) {
+            if (view.element?.querySelector(`.advanced-filters > .filter[data-name="${CSS.escape(name)}"]`)) {
                 continue;
             }
 

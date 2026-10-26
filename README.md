@@ -77,6 +77,16 @@ Screenshots were taken on EspoCRM 10.0.3 with the English language (en_US).
 - `npm run sync` copies the files into the `site` instance.
 - `npm run clear-cache` clears the cache after a metadata change.
 
+### Tests
+
+The end-to-end tests use Playwright and run against a running instance (default `http://localhost:8080`):
+
+```bash
+ESPO_USERNAME=admin ESPO_PASSWORD=your-password npm test
+```
+
+Set `SMART_FILTER_CHROMIUM` to a Chromium executable if Playwright's bundled browser is not installed. Run `npx playwright install chromium` to install it.
+
 ## License
 
 GPL-3.0-or-later. See [LICENSE](src/LICENSE).
