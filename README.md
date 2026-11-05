@@ -74,12 +74,12 @@ Screenshots were taken on EspoCRM 10.0.3 with the English language (en_US).
 
 ## Compatibility
 
-- EspoCRM `>= 10.0.3 < 10.1.0` (tested on 10.0.3). The extension relies on the internal behavior of list views in this version, so the range is deliberately limited. Check compatibility before using it on another version.
+- EspoCRM `>= 10.0.3` (tested on 10.0.3 and 10.0.11). The extension relies on the internal behavior of list views, so test it before upgrading to a new EspoCRM version.
 - PHP `>= 8.3`
 
 ## Installation
 
-1. Build the package: `npm run extension` (produces `build/smart-filter-1.0.3.zip`).
+1. Build the package: `npm run extension` (produces `build/smart-filter-1.0.4.zip`).
 2. Install the ZIP from Administration → Extensions in EspoCRM.
 
 ## Development
