@@ -2,6 +2,24 @@
     position: relative;
 }
 
+/* Core pulls this button 1px over the search button and raises it on hover and focus, so a filled background hides that button's right border. Keep it clear of the border, with its own rounded shape. */
+.search-row .input-group > .input-group-btn > .btn.add-filter-button {
+    margin-left: 2px;
+    border-radius: var(--border-radius, 6px) !important;
+}
+
+/* Engaged look while the field menu is open, same as the Better Columns toggle. Core only gives the theme's active shadow to non-text buttons, so apply it here. Clipping to the padding box keeps a shadow flush with the edge without removing the border, so the counter badge does not move. */
+.search-row .input-group > .input-group-btn.open > .btn.add-filter-button {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06));
+    background-clip: padding-box;
+    box-shadow: var(--btn-active-box-shadow);
+}
+
+.search-row .input-group > .input-group-btn.open > .btn.add-filter-button > .fas {
+    color: var(--text-color);
+}
+
 .search-row .add-filter-button .smart-filters-counter {
     position: absolute;
     top: 2px;
