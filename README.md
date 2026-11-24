@@ -100,4 +100,7 @@ Set `SMART_FILTER_CHROMIUM` to a Chromium executable if Playwright's bundled bro
 
 ## License
 
-GPL-3.0-or-later. See [LICENSE](src/LICENSE).
+Copyright (C) 2026 Alexis SANTIN.
+
+Smart Filter is free software, released under the [GNU Affero General Public License v3.0 or later](LICENSE),
+the same license as EspoCRM. Versions up to 1.0.4 were released under GPL-3.0-or-later.
